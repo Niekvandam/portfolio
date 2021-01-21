@@ -8,6 +8,9 @@
 
 	<link rel="stylesheet" href="css/main.css">
 
+	<link rel="stylesheet" href="css/sidebar.css">
+
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -26,35 +29,16 @@
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-2">
-				<nav>
-					<div id="name">
-						Niek
-					</div>
-					<div class="navitems">
-						<a href="#">Home</a>
-						<a href="#">About</a>
-						<a href="#">Idk</a>
-						<a href="#">Idk 2</a>
-						<a href="#">Idk 3</a>
-					</div>
-					<div id="menu" style="display: inline;">
-						<ul class="social-icons-twitter"><a class="contacticon" data-toggle="tooltip"
-								href="http://www.twitter.com/" target="_blank" title="" data-original-title="Twitter"><i
-									class="fab fa-twitter"></i></a></ul>
-						<ul class="social-icons-github"><a class="contacticon" data-toggle="tooltip"
-								href="http://www.google.com/" target="_blank" title="" data-original-title="GitHub"><i
-									class="fab fa-github"></i></a></ul>
-						<ul class="social-icons-google"><a class="contacticon" data-toggle="tooltip"
-								href="http://www.google.com/" target="_blank" title="" data-original-title="Google"><i
-									class="fab fa-google"></i></a></ul>
-						<ul class="social-icons-linkedin"><a class="contacticon" data-toggle="tooltip"
-								href="http://www.linkedin.com/" target="_blank" title=""
-								data-original-title="LinkedIn"><i class="fab fa-linkedin"></i></a></ul>
-					</div>
-				</nav>
+			<div class="col-sm-2">
+				<div class="sidenav">
+					<a href="#">About</a>
+					<a href="#">Work Experience</a>
+					<a href="#">Projects</a>
+					<a href="#">Education / Training</a>
+				</div>
+				
 			</div>
-			<div class="col-md-10">
+			<div class="col-sm-10">
 				<div class="page-header text-center">
 					<h1>
 						Niek van Dam
@@ -65,17 +49,26 @@
 				</div>
 				<br>
 				<h3 class="text-center">
-
+					<h3 class="title">
+						About me
+					</h3>
+					<hr>
 				</h3>
-				<p>
-					Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
-					sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
-					vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere
-					diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo
-						imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna,
-					vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu,
-						pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-				</p>
+				<p>My name is Niek van Dam, I am a 19-year-old student from the FHICT Excellence course studying the
+					software trajectory.
+					<br><br>
+					Before starting my study at Fontys, I studied software engineering on a vocational level for 3
+					years, where we created responsive web apps. During this study my teachers let me take a deeper dive
+					into algorithms and design patterns, after which I got interested in software engineering.
+					<br><br>
+					I started my dive into artificial intelligence half a year ago, and have been working on several
+					small projects in order to master this skill. Besides AI, mastering mathematics and data science are
+					also on the list.
+					Next to programming programming, I am also interested in trading on the stock market and crypto
+					markets. I have been trading on the crypto market for about two years now, and the stock market for
+					a few months.
+					My goal is to create a trading algorithm - if possible with neural networking - that will automate
+					most of the trades for me once I have enough knowledge of AI</p>
 				<h3 class="title">
 					Work Experience
 				</h3>
@@ -161,7 +154,7 @@
 										<div class="[ info-card-details ] animate">
 											<div class="[ info-card-header ]">
 												<h1> OpenRemote Wind Power Prediction </h1>
-												<h3> Creating a prediction model  </h3>
+												<h3> Creating a prediction model </h3>
 											</div>
 											<div class="[ info-card-detail ]">
 												<p></p>
@@ -283,12 +276,12 @@
 										<li>Elected for Excellence program.</li>
 									</ul>
 							</li>
-						</ul><!-- End -->
-
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 </body>
 
 </html>
